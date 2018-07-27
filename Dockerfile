@@ -1,7 +1,7 @@
 FROM php:7.2-apache
 MAINTAINER Daniel Alves <daniel@alvestechnology.io>
 
-EXPOSE 80 443
+EXPOSE 80
 
 ARG DEBIAN_FRONTEND=noninteractive
 RUN apt-get update && apt-get install -y --no-install-recommends \
